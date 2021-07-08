@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Oswald&display=swap');
+
+body {
+    font-family: 'Oswald', sans-serif;
+}
+
+.app-font-courgette {
+    font-family: 'Courgette', cursive;
+    font-weight: 600;
+}
