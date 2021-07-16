@@ -13,6 +13,7 @@
     rel="stylesheet" />
   <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="css/main.css" />
+  <link rel="stylesheet" href="css/contact.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
   <title>Document</title>
 </head>
@@ -37,16 +38,16 @@
       <div class="collapse navbar-collapse" id="navMenu">
         <ul class=" navbar-nav text-light ms-auto">
           <li class="nav-item">
-            <a href="index.html" class="nav-link  active">Accueil</a>
+            <a href="index.html" target="_blank" class="nav-link  active">Accueil</a>
           </li>
           <li class="nav-item">
             <a href="team.html" target="_blank" class="nav-link ">Equipe</a>
           </li>
           <li class="nav-item">
-            <a href="recipe.html" target="_blank" class="nav-link ">post</a>
+            <a href="recipee.html" target="_blank" class="nav-link ">Blog</a>
           </li>
           <li class="nav-item">
-            <a href="contact.html" target="_blank" class="nav-link ">Contact</a>
+            <a href="contact.html" class="nav-link ">Contact</a>
           </li>
         </ul>
       </div>
@@ -67,85 +68,57 @@
             </div>
             <div class="row my-2">
               <div class="col">
-                <p class="col h1 mx-auto text-center text-light courgette">
-                  Cui'zine
+                <p class="col h1 mx-auto mb-5 text-center text-light courgette">
+                  Nous Contacter
                 </p>
               </div>
             </div>
-            <p class="col-12 h2 text-center text-light courgette">
-              Le mag cuisine
-            </p>
           </div>
         </div>
       </div>
     </div>
   </header>
 
-  <!-- Section Articles -->
+  <!-- Section Location -->
 
-  <section class="container">
-    <div class="row-lg row-md">
-      <div class="col-md-11 my-5">
-        <p class="h1 col fw-bold text-center oswald">Dernier Articles</p>
-      </div>
-    </div>
+  <section class="container pb-5 location">
+    <div class="row justify-content-center mx-md-0">
+      <div class="col-12 col-md-9">
+        <div class="col-8 row-md">
+          <p class="h1 courgette">Contact</p>
+          <p class="h1 courgette">Address</p>
+          <p class="oswald">Station F</p>
+          <p class="oswald">5 Parvis Alan Turing</p>
+          <p class="oswald">75013 Paris</p>
+        </div>
 
-    <div class="row pb-5 justify-content-center col-sm col-md-10 mx-md-auto ">
-      <div class="col">
-        <div class="row my-4 my-sm-0">
-          <div class="col-12 col-sm-3">
-            <a href="post.html" target="_blank"><img src="img/articles/suzette/suzette-small.jpg" width="100%"
-                height="auto" float="" alt="Suzzet" /></a>
-          </div>
-          <div class="col-12 col-sm-9 p-sm-0 m-sm-0 px-sm-2 courgette">
-            <p class="h3 my-3 my-sm-0 fs-4">
-              <a class="text-decoration-none text-dark" href="post.html" target="_blank"> Chez Suzzet, </a> la nouvelle
-              crêperie qui fait parler d'elle
-            </p>
-            <p class="h5 oswald fs-6 mt-md-2">
-              La franchise "Chez Suzzet" qui fait un carton chez les bretons
-              ouvre son premier restaurant à Paris dans le quartier latin.
-              Antoine de Cui'Zine a testé pour vous les saveurs sucrés, salés
-              au fromant ou au sarrazin!
-            </p>
+        <div class="mapouter row-md">
+          <div class="gmap_canvas"><iframe width="100%" height="400px" id="gmap_canvas"
+              src="https://maps.google.com/maps?q=5%20Parvis%20Alan%20Turing%2075013&t=&z=13&ie=UTF8&iwloc=&output=embed"
+              frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a
+              href="https://www.online-timer.net"></a><br>
+            <style>
+              .mapouter {
+                position: relative;
+                text-align: right;
+                height: auto;
+                width: 100%;
+              }
+            </style>
+            <style>
+              .gmap_canvas {
+                overflow: hidden;
+                background: none !important;
+                height: auto;
+                width: 100%;
+              }
+            </style>
           </div>
         </div>
 
-        <div class="row my-4">
-          <div class="col-12 col-sm-3 m-sm-0">
-            <img src="img/articles/metro/metro-small.jpg" width="100%" height="auto" float="" alt="Metro Dessert" />
-          </div>
-          <div class="col-12 col-sm-9 px-sm-2 courgette courgette">
-            <p class="h3 my-3 fs-4">La Métro dessert</p>
-            <p class="h5 oswald fs-6 mt-md-2">
-              Germain est ferrovipathe (ndlr: fan de train), son fils Maxime
-              est patissier. Ils ont décidé de réunir leur deux passions dans
-              un restaurant à la déco de inspiré du métro parisien. A voir
-              absolument, mais qu'en est-il d'y aller pour manger ? Clémentine
-              est en gare et nous donne son avis.
-            </p>
-          </div>
-        </div>
-
-        <div class="row my-4">
-          <div class="col-12 col-sm-3 m-sm-0 px-sm-2">
-            <img src="img/articles/vitaly/vitaly-small.jpg" width="100%" height="auto" float="" alt="Metro Dessert" />
-          </div>
-          <div class="col-12 col-sm-9 p-sm-0 m-sm-0 px-sm-2 courgette">
-            <p class="h3 my-3 my-sm-0 fs-4">Vitaly, le végan Italien</p>
-            <p class="h5 oswald fs-6 mt-md-2">
-              Quand on pense Italien, on pense lasagne et jambon de Parme. Ils
-              l'ont fait, les saveurs de l'italie à portée des herbivores.
-              Cette fois, c'est moi Tony qui vais le tester pour vous.
-            </p>
-          </div>
-        </div>
-        <div class="row">
-          <a href="" class="text-dark oswald text-decoration-none">&#60&#60 &nbsp&nbsp Voir les articles précedents</a>
-        </div>
       </div>
 
-      <div class="col-lg-2 d-none d-lg-block px-md-0 mx-md-3">
+      <div class="col-lg-2 col-md-4 d-none d-md-block">
         <form class="" action="" method="get">
           <div class="row">
             <label class="col p-1 courgette" for="recherche">Recherche</label>
@@ -183,7 +156,7 @@
   <footer class="row justify-content-center bg-dark ">
     <div class="col-10">
       <div class="row my-5">
-        <div class="col-12 ms-0 col-md-4 mx-md-0 text-light">
+        <div class="col-12 col-md-4 mx-md-0 text-light">
 
           <div class="row mt-5 mb-2">
             <p class="h2 courgette my-2">Catégories</p>
@@ -193,7 +166,7 @@
           </div>
         </div>
 
-        <div class="col-12 ms-0 col-md-4 mx-md-0 mt-md-5 text-light">
+        <div class="col-12 col-md-4 mx-md-0 mt-md-5 text-light">
           <div class="row my-2">
             <p class="h2 courgette my-2">Archives</p>
             <a class="text-light" href="">2019</a>
@@ -202,8 +175,9 @@
           </div>
         </div>
 
-        <div class="col-12 ms-0 col-md-4 mx-md-0 text-light">
+        <div class="col-12 col-md-4 mx-md-0 text-light">
           <div class="row my-2">
+
             <form action="">
               <div class="col-8 mt-md-5">
                 <div class="row">

@@ -1,10 +1,46 @@
-@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Oswald&display=swap');
-
-body {
-    font-family: 'Oswald', sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+}
+header {
+  font-family: 'Courgette', cursive;
+  font-family: 'Oswald', sans-serif;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(../img/header.jpg);
+  background-size: cover;
+  background-position: center;
+  /* height: 75vh; */
+}
+.articles {
+  /* height: 90vh; */
+  background-color: rgb(255, 255, 255, 0.7);
+}
+.courgette {
+  font-family: "Courgette", cursive;
+}
+.oswald {
+  font-family: "Oswald", sans-serif;
 }
 
-.app-font-courgette {
+@media (min-width:768px) {
+  header {
     font-family: 'Courgette', cursive;
-    font-weight: 600;
+    font-family: 'Oswald', sans-serif;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+      url(../img/header.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+  }
+}
+@media (max-width:768px) {
+  header {
+    font-family: 'Courgette', cursive;
+    font-family: 'Oswald', sans-serif;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+      url(../img/header.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+  }
 }
